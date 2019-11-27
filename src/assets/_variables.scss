@@ -1,0 +1,18 @@
+@import "~normalize.css/normalize.css";
+@import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import "~tiny-slider/dist/tiny-slider.css";
+
+$yellow: #ffe838;
+$purple: #fd57bf;
+$footer-color: #3E9571;
+$bg-color: #221e3f;
+$delay: 650ms;
+
+@font-face {
+  font-family: 'The Historia Demo';
+  font-display: swap;
+  src: local('The Historia Demo'),
+  url('~@/assets/TheHistoriaDemo.woff2') format('woff2'), /* Modern Browsers */
+  url('~@/assets/TheHistoriaDemo.woff') format('woff'), /* Modern Browsers */
+  url('~@/assets/TheHistoriaDemo.ttf') format('truetype');
+}
