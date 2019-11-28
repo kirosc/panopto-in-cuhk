@@ -6,6 +6,7 @@
 
 <script>
     const uuid = require('uuid/v4');
+    //const FontFaceObserver = require('fontfaceobserver');
 
     export default {
         name: 'pie',
@@ -16,10 +17,20 @@
             this.id = uuid();
         },
         mounted: function () {
-            this.renderPie()
+            // const font = this.font
+            // const ctx = this
+
+            // font.load().then(function () {
+            //     ctx.render()
+            //     console.log('Font is available');
+            // }, function () {
+            //     console.log('Font is not available');
+            // });
+            
+            this.render()
         },
         methods: {
-            renderPie: function () {
+            render: function () {
                 this.chart = new CanvasJS.Chart(this.id, {
                     animationEnabled: false,
                     theme: "dark2",
@@ -48,7 +59,7 @@
                 this.chart.render();
             }
         },
-        props: ['data']
+        props: ['data', 'font']
     }
 </script>
 

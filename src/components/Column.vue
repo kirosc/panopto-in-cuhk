@@ -16,10 +16,20 @@
             this.id = uuid();
         },
         mounted: function () {
-            this.renderPie()
+            // const font = this.font
+            // const ctx = this
+
+            // font.load().then(function () {
+            //     ctx.render()
+            //     console.log('Font is available');
+            // }, function () {
+            //     console.log('Font is not available');
+            // });
+            
+            this.render()
         },
         methods: {
-            renderPie: function () {
+            render: function () {
                 let legendText = this.data.legendText || "1分為完全不同意，7分為完全同意";
                 this.chart = new CanvasJS.Chart(this.id, {
                     animationEnabled: false,
@@ -44,7 +54,7 @@
                 this.chart.render();
             }
         },
-        props: ['data']
+        props: ['data', 'font']
     }
 </script>
 

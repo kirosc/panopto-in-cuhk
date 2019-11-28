@@ -11,7 +11,6 @@
         <li><a href="#part1" class="nav-link" data-scroll>Part I</a></li>
         <li><a href="#part2" class="nav-link" data-scroll>Part II</a></li>
         <li><a href="#part3" class="nav-link" data-scroll>Part III</a></li>
-        <li><a href="#part4" class="nav-link" data-scroll>Part IV</a></li>
       </ul>
     </nav>
   </div>

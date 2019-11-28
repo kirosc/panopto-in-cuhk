@@ -16,10 +16,10 @@
             this.id = uuid();
         },
         mounted: function () {
-            this.renderPie()
+            this.render()
         },
         methods: {
-            renderPie: function () {
+            render: function () {
                 this.chart = new CanvasJS.Chart(this.id, {
                     animationEnabled: false,
                     title:{

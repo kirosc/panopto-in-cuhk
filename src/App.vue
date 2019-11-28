@@ -20,9 +20,9 @@
           <h2>Part 1</h2>
           <h3>Basic Information</h3>
         </div>
-        <Pie v-bind:data="q1_1" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q1_2" data-aos="fade-left" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q1_3" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q1_1" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q1_2" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q1_3" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
       </div>
     </section>
 
@@ -32,15 +32,15 @@
           <h2>Part 2</h2>
           <h3>Used Panopto Before</h3>
         </div>
-        <Pie v-bind:data="q2_1" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Column v-bind:data="q2_2" data-aos="fade-left" data-aos-delay="300"></Column>
-        <Column v-bind:data="q2_3" data-aos="fade-right" data-aos-delay="300"></Column>
-        <Column v-bind:data="q2_4" data-aos="fade-left" data-aos-delay="300"></Column>
-        <Column v-bind:data="q2_5" data-aos="fade-right" data-aos-delay="300"></Column>
-        <Column v-bind:data="q2_6" data-aos="fade-left" data-aos-delay="300"></Column>
-        <Pie v-bind:data="q2_7" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Column v-bind:data="q2_8" data-aos="fade-left" data-aos-delay="300"></Column>
-        <Column v-bind:data="q2_9" data-aos="fade-right" data-aos-delay="300"></Column>
+        <Pie v-bind:data="q2_1" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Column v-bind:data="q2_2" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Column>
+        <Column v-bind:data="q2_3" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Column>
+        <Column v-bind:data="q2_4" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Column>
+        <Column v-bind:data="q2_5" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Column>
+        <Column v-bind:data="q2_6" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Column>
+        <Pie v-bind:data="q2_7" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Column v-bind:data="q2_8" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Column>
+        <Column v-bind:data="q2_9" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Column>
       </div>
     </section>
 
@@ -50,22 +50,13 @@
           <h2>Part 3</h2>
           <h3>Never Used Panopto Before</h3>
         </div>
-        <Pie v-bind:data="q3_1" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q3_2" data-aos="fade-left" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q3_3" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q3_4" data-aos="fade-left" data-aos-delay="300"></Pie>
-        <Column v-bind:data="q3_5" data-aos="fade-right" data-aos-delay="300"></Column>
-      </div>
-    </section>
-
-    <section class="part4" id="part4">
-      <div class="container">
-        <div class="section-heading">
-          <h2>Part 4</h2>
-          <h3>For Both Groups</h3>
-        </div>
-        <Pie v-bind:data="q4_1" data-aos="fade-right" data-aos-delay="300"></Pie>
-        <Pie v-bind:data="q4_2" data-aos="fade-left" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q3_1" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q3_2" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q3_3" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q3_4" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Pie>
+        <Column v-bind:data="q3_5" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Column>
+        <Pie v-bind:data="q3_6" v-bind:font="font" data-aos="fade-right" data-aos-delay="300"></Pie>
+        <Pie v-bind:data="q3_7" v-bind:font="font" data-aos="fade-left" data-aos-delay="300"></Pie>
       </div>
     </section>
 
@@ -117,7 +108,6 @@
             <li><a href="#part1" class="footer-link" data-scroll>Part I</a></li>
             <li><a href="#part2" class="footer-link" data-scroll>Part II</a></li>
             <li><a href="#part3" class="footer-link" data-scroll>Part III</a></li>
-            <li><a href="#part4" class="footer-link" data-scroll>Part IV</a></li>
           </ul>
         </nav>
       </div>
@@ -136,6 +126,9 @@
   import Pie from './components/Pie.vue';
   import Column from './components/Column.vue';
   import Bar from './components/Bar.vue';
+  import FontFaceObserver from 'fontfaceobserver';
+
+  const font = new FontFaceObserver('Noto Sans TC');
 
   export default {
     name: 'app',
@@ -148,6 +141,7 @@
     },
     data() {
       return {
+        font: font,
         q1_1: {
           title: '所屬學院',
           result: [
@@ -313,14 +307,14 @@
             { y: 19, label: "7" },
           ]
         },
-        q4_1: {
+        q3_6: {
           title: '會否因為科目有提供Panopto而報讀該科',
           result: [
             { y: 42.6, label: "會", toolTipContent: "{label} :20"},
             { y: 57.4, label: "不會", toolTipContent: "{label} :27"},
           ]
         },
-        q4_2: {
+        q3_7: {
           title: '比較喜歡使用Panopto還是親身到課室上堂',
           result: [
             { y: 40.4, label: "使用Panopto", toolTipContent: "{label} :19"},
@@ -584,6 +578,7 @@
     h1 {
       font-size: 20rem;
       font-family: 'The Historia Demo', sans-serif;
+      font-weight: 300;
       background: linear-gradient(to top, $yellow, $purple);
       background-clip: text;
       color: transparent;

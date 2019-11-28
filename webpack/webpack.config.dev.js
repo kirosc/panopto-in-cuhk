@@ -15,7 +15,7 @@ module.exports = merge(common,
       watchContentBase: true,
       hot: true,
       inline: true,
-      public: '0.0.0.0',
+      public: '1232eddd.ap.ngrok.io',
     },
     output: {
       path: path.join(__dirname, '../dist'),
