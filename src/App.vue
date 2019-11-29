@@ -63,32 +63,17 @@
     <section class="contact" id="contact">
       <div class="container">
         <div class="section-heading" style="margin-bottom: 5rem;">
-          <h2>Know</h2>
-          <h3>More</h3>
+          <h2>Source</h2>
+          <h3>Code</h3>
         </div>
         <div class="social-media" data-aos="zoom-out">
           <ul class="nav-list">
             <li>
-              <a href="#"
-                 class="icon-link"
-                 target="_blank"
-                 title="Follow me on Linkedin">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
+              <a href="https://github.com/kirosc/panopto-in-cuhk"
                  class="icon-link"
                  target="_blank"
                  title="Follow me on Github">
                 <i class="fab fa-github"></i>
-              </a>
-            </li>
-            <li>
-              <a href="#"
-                 class="icon-link"
-                 title="Email me">
-                <i class="fas fa-envelope"></i>
               </a>
             </li>
           </ul>
