@@ -31,8 +31,8 @@ document.addEventListener(
 
 window.onload = () => {
   if(!localStorage.getItem("visted")){
+    localStorage.setItem("visted", true);
     window.location.reload(false);
-    localStorage.setItem("visted",true);
   }
 
   setTimeout(function () {
