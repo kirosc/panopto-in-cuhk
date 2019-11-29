@@ -143,59 +143,63 @@
         q1_1: {
           title: '所屬學院',
           result: [
-            {y: 50.5, label: "理學院", toolTipContent: "{label} :53"},
-            {y: 30.5, label: "醫學院", toolTipContent: "{label} :32"},
-            {y: 9.5, label: "教育學院", toolTipContent: "{label} :10"},
-            {y: 5.7, label: "工程學院", toolTipContent: "{label} :6"},
-            {y: 3.8, label: "其他學院", toolTipContent: "{label} :4"},
+            {y: 34.5, label: "理學院", toolTipContent: "{label} :57"},
+            {y: 20.0, label: "醫學院", toolTipContent: "{label} :33"},
+            {y: 10.3, label: "教育學院", toolTipContent: "{label} :17"},
+            {y: 15.8, label: "工程學院", toolTipContent: "{label} :26"},
+            {y: 7.3, label: "工商管理學院", toolTipContent: "{label} :12"},
+            {y: 6.1, label: "社會科學院", toolTipContent: "{label} :10"},
+            {y: 3.6, label: "法律學院", toolTipContent: "{label} :6"},
+            {y: 2.4, label: "文學院", toolTipContent: "{label} :4"},
           ]
         },
         q1_2: {
           title: '所屬年級',
           result: [
-            {y: 12.4, label: "一年級", toolTipContent: "{label} :13"},
-            {y: 37.1, label: "二年級", toolTipContent: "{label} :39"},
-            {y: 26.7, label: "三年級", toolTipContent: "{label} :28"},
-            {y: 22.9, label: "四年級", toolTipContent: "{label} :24"},
-            {y: 1, label: "五年級", toolTipContent: "{label} :1"},
+            {y: 15.2, label: "一年級", toolTipContent: "{label} :25"},
+            {y: 35.2, label: "二年級", toolTipContent: "{label} :58"},
+            {y: 26.1, label: "三年級", toolTipContent: "{label} :43"},
+            {y: 22.4, label: "四年級", toolTipContent: "{label} :37"},
+            {y: 0.6, label: "五年級", toolTipContent: "{label} :1"},
+            {y: 0.6, label: "六年級", toolTipContent: "{label} :1"},
           ]
         },
         q1_3: {
           title: '有否使用過Panopto？',
           result: [
-            {y: 55.2, label: "有", toolTipContent: "{label} :58"},
-            {y: 44.8, label: "沒有", toolTipContent: "{label} :47"},
+            {y: 63.6, label: "有", toolTipContent: "{label} :105"},
+            {y: 36.4, label: "沒有", toolTipContent: "{label} :60"},
           ]
         },
         q2_1: {
           title: '有否曾經於課堂上自行錄影或錄音？',
           result: [
-            {y: 43.1, label: "有", toolTipContent: "{label} :33"},
-            {y: 56.9, label: "沒有", toolTipContent: "{label} :25"},
+            {y: 62.9, label: "有", toolTipContent: "{label} :66"},
+            {y: 37.1, label: "沒有", toolTipContent: "{label} :39"},
           ]
         },
         q2_2: {
           title: '使用Panopto會令你減少親身上堂',
           result: [
-            { y: 2, label: "1" },
-            { y: 8, label: "2" },
-            { y: 7, label: "3" },
-            { y: 5, label: "4" },
-            { y: 22, label: "5" },
-            { y: 12, label: "6" },
-            { y: 2, label: "7" },
+            { y: 6, label: "1" },
+            { y: 15, label: "2" },
+            { y: 20, label: "3" },
+            { y: 13, label: "4" },
+            { y: 28, label: "5" },
+            { y: 18, label: "6" },
+            { y: 5, label: "7" },
           ]
         },
         q2_3: {
           title: '使用Panopto會令你更易掌握課堂知識',
           result: [
-            { y: 0, label: "2" },
+            { y: 0, label: "1" },
             { y: 3, label: "2" },
-            { y: 1, label: "3" },
-            { y: 2, label: "4" },
-            { y: 11, label: "5" },
-            { y: 21, label: "6" },
-            { y: 20, label: "7" },
+            { y: 6, label: "3" },
+            { y: 12, label: "4" },
+            { y: 32, label: "5" },
+            { y: 27, label: "6" },
+            { y: 25, label: "7" },
           ]
         },
         q2_4: {
@@ -203,120 +207,121 @@
           result: [
             { y: 2, label: "1" },
             { y: 3, label: "2" },
-            { y: 2, label: "3" },
-            { y: 5, label: "4" },
-            { y: 25, label: "5" },
-            { y: 13, label: "6" },
-            { y: 8, label: "7" },
+            { y: 5, label: "3" },
+            { y: 9, label: "4" },
+            { y: 47, label: "5" },
+            { y: 23, label: "6" },
+            { y: 16, label: "7" },
           ]
         },
         q2_5: {
           title: '使用Panopto會令你在課堂期間更加專心',
           result: [
             { y: 2, label: "1" },
-            { y: 4, label: "2" },
-            { y: 4, label: "3" },
-            { y: 31, label: "4" },
-            { y: 12, label: "5" },
-            { y: 5, label: "6" },
-            { y: 0, label: "7" },
+            { y: 7, label: "2" },
+            { y: 11, label: "3" },
+            { y: 46, label: "4" },
+            { y: 23, label: "5" },
+            { y: 13, label: "6" },
+            { y: 3, label: "7" },
           ]
         },
         q2_6: {
           title: '使用Panopto會令你在課堂外減少工作量',
           result: [
             { y: 2, label: "1" },
-            { y: 3, label: "2" },
-            { y: 3, label: "3" },
-            { y: 8, label: "4" },
-            { y: 14, label: "5" },
-            { y: 21, label: "6" },
-            { y: 7, label: "7" },
+            { y: 8, label: "2" },
+            { y: 19, label: "3" },
+            { y: 21, label: "4" },
+            { y: 22, label: "5" },
+            { y: 23, label: "6" },
+            { y: 10, label: "7" },
           ]
         },
         q2_7: {
           title: '使用Panopto的頻率',
           result: [
-            { y: 12.1, label: "每天觀看", toolTipContent: "{label} :7"},
-            { y: 34.5, label: "每周平均1-3次", toolTipContent: "{label} :20"},
-            { y: 34.5, label: "每周平均4-6次", toolTipContent: "{label} :20"},
-            { y: 17.2, label: "每月少於3次", toolTipContent: "{label} :10"},
-            { x:2, y: 1.7, label: "需要時看", toolTipContent: "{label} :1"},
+            { y: 8.6, label: "每天觀看", toolTipContent: "{label} :9"},
+            { y: 41.0, label: "每周平均1-3次", toolTipContent: "{label} :43"},
+            { y: 29.5, label: "每周平均4-6次", toolTipContent: "{label} :31"},
+            { y: 20.0, label: "每月少於3次", toolTipContent: "{label} :21"},
+            { y: 1.0, label: "需要時看", toolTipContent: "{label} :1"},
           ]
         },
         q2_8: {
           title: '使用Panopto的模式',
           result: [
-            { y: 42, label: "觀看整個錄像"},
-            { y: 49, label: "觀看課堂上錯過的部分"},
-            { y: 46, label: "觀看課堂上不明白的部分"},
-            { y: 44, label: "用作復習測驗或考試"},
+            { y: 67, label: "觀看整個錄像"},
+            { y: 64, label: "觀看課堂上錯過的部分"},
+            { y: 61, label: "觀看課堂上不明白的部分"},
+            { y: 60, label: "用作復習測驗或考試"},
           ],
           legendText: " "
         },
         q2_9: {
           title: '使用Panopto系統的目的',
           result: [
-            { y: 55, label: "復習"},
-            { y: 39, label: "走堂"},
+            { y: 41, label: "復習"},
+            { y: 7, label: "走堂"},
+            { y: 36, label: "兩者皆是"},
           ],
           legendText: " "
         },
         q3_1: {
           title: '是否知道什麼是Panopto',
           result: [
-            { y: 89.4, label: "知道", toolTipContent: "{label} :42"},
-            { y: 10.6, label: "不知道", toolTipContent: "{label} :5"},
+            { y: 80.0, label: "知道", toolTipContent: "{label} :48"},
+            { y: 20.0, label: "不知道", toolTipContent: "{label} :12"},
           ]
         },
         q3_2: {
           title: '有沒有曾經於課堂上自行錄影或錄音',
           result: [
-            { y: 78.7, label: "有", toolTipContent: "{label} :37"},
-            { y: 21.3, label: "沒有", toolTipContent: "{label} :10"},
+            { y: 83.3, label: "有", toolTipContent: "{label} :50"},
+            { y: 16.7, label: "沒有", toolTipContent: "{label} :10"},
           ]
         },
         q3_3: {
           title: '沒有使用Panopto的原因是',
           result: [
-            { y: 87.2, label: "課堂沒有提供", toolTipContent: "{label} :41"},
-            { y: 6.4, label: "不知道課堂有沒有提供", toolTipContent: "{label} :3"},
-            { y: 4.3, label: "不知道Panopto是什麼", toolTipContent: "{label} :2"},
-            { y: 2.1, label: "課堂的資源已足夠用於復習", toolTipContent: "{label} :1"},
+            { y: 76.7, label: "課堂沒有提供", toolTipContent: "{label} :46"},
+            { y: 10.0, label: "不知道課堂有沒有提供", toolTipContent: "{label} :6"},
+            { y: 10.0, label: "不知道Panopto是什麼", toolTipContent: "{label} :6"},
+            { y: 3.3, label: "課堂的資源已足夠用於復習", toolTipContent: "{label} :2"},
           ]
         },
         q3_4: {
           title: '使用Panopto會否影響你的課堂出席率',
           result: [
-            { y: 74.5, label: "會，出席率會下降", toolTipContent: "{label} :35"},
+            { y: 65.0, label: "會，出席率會下降", toolTipContent: "{label} :39"},
             { y: 0, label: "會，出席率會上升", toolTipContent: "{label} :0"},
-            { y: 25.5, label: "不會", toolTipContent: "{label} :12"},
+            { y: 35.0, label: "不會", toolTipContent: "{label} :21"},
           ]
         },
         q3_5: {
           title: '是否同意Panopto能夠幫助你的學習',
           result: [
-            { y: 0, label: "1" },
+            { y: 1, label: "1" },
             { y: 0, label: "2" },
             { y: 1, label: "3" },
-            { y: 2, label: "4" },
-            { y: 3, label: "5" },
-            { y: 22, label: "6" },
+            { y: 6, label: "4" },
+            { y: 9, label: "5" },
+            { y: 24, label: "6" },
             { y: 19, label: "7" },
           ]
         },
         q3_6: {
           title: '會否因為科目有提供Panopto而報讀該科',
           result: [
-            { y: 42.6, label: "會", toolTipContent: "{label} :20"},
-            { y: 57.4, label: "不會", toolTipContent: "{label} :27"},
+            { y: 38.3, label: "會", toolTipContent: "{label} :23"},
+            { y: 31.7, label: "不會", toolTipContent: "{label} :37"},
           ]
         },
         q3_7: {
           title: '比較喜歡使用Panopto還是親身到課室上堂',
           result: [
-            { y: 40.4, label: "使用Panopto", toolTipContent: "{label} :19"},
-            { y: 59.6, label: "親身到課室上堂", toolTipContent: "{label} :28"},
+            { y: 35.0, label: "使用Panopto", toolTipContent: "{label} :21"},
+            { y: 65.0, label: "親身到課室上堂", toolTipContent: "{label} :39"},
           ]
         },
       }
