@@ -32,7 +32,7 @@ document.addEventListener(
 window.onload = () => {
   if(!localStorage.getItem("visted")){
     localStorage.setItem("visted", true);
-    window.location.reload(false);
+    window.location.replace('https://ucfyp.kirosc.com/');
   }
 
   setTimeout(function () {
