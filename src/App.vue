@@ -125,7 +125,6 @@
   import About from './components/About.vue';
   import Pie from './components/Pie.vue';
   import Column from './components/Column.vue';
-  import Bar from './components/Bar.vue';
   import FontFaceObserver from 'fontfaceobserver';
 
   const font = new FontFaceObserver('Noto Sans TC');
@@ -137,7 +136,6 @@
       About,
       Pie,
       Column,
-      Bar
     },
     data() {
       return {
